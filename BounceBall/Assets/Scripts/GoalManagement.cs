@@ -27,7 +27,7 @@ public class GoalManagement : MonoBehaviour {
 	
 	// Trigger event
 	void OnTriggerEnter(Collider other) {
-        if(other.CompareTag("goal_ball")){ 
+        if(other.CompareTag("Ball_goal")){ 
 			gameSuccess();
 		}
     }
